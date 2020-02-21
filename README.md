@@ -1,6 +1,6 @@
 # OGL TypeScript Starter
 
-ogl-typescript starter with code minifier and livereload dev server.
+ [ogl-typescript](https://github.com/nshen/ogl-typescript) starter with code minifier and livereload dev server.
 
 ### Usage
 
