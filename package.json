@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/nshen/ogl-typescript-starter#readme",
   "dependencies": {
-    "ogl-typescript": "^0.0.42"
+    "ogl-typescript": "^0.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
