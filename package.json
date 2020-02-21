@@ -1,0 +1,48 @@
+{
+  "name": "ogl-typescript-starter",
+  "version": "1.0.0",
+  "description": "A starter template for ogl-typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/* && rollup -c",
+    "dev": "rimraf dist/* && rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshen/ogl-typescript-starter.git"
+  },
+  "keywords": [
+    "ogl",
+    "ogl-typescript",
+    "webgl"
+  ],
+  "author": {
+    "name": "nshen",
+    "email": "nshen121@gmail.com",
+    "url": "https://nshen.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nshen/ogl-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/nshen/ogl-typescript-starter#readme",
+  "dependencies": {
+    "ogl-typescript": "^0.0.42"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-generate-html-template": "^1.6.1",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-terser": "^5.2.0",
+    "typescript": "^3.8.2"
+  }
+}

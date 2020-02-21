@@ -1,0 +1,4 @@
+*.lock
+**/*.log
+dist
+node_modules
